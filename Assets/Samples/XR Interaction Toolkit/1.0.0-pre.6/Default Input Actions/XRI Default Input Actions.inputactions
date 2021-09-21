@@ -897,6 +897,52 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "CustomMap",
+            "id": "61bbdfb4-9074-4366-8d59-6f2f4d54af1b",
+            "actions": [
+                {
+                    "name": "Toggle",
+                    "type": "Button",
+                    "id": "069a3442-81a9-4a57-a3f1-be7d196a0774",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Color",
+                    "type": "Value",
+                    "id": "d125f621-603b-48e3-b010-667c078225ff",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0a027d38-08a3-4f83-9ff4-e4c79e59b723",
+                    "path": "<XRController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04202f8c-3337-42eb-bea8-3f6f8d1a64c6",
+                    "path": "<XRController>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
