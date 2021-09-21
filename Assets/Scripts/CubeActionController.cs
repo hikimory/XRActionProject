@@ -30,7 +30,6 @@ public class CubeActionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(m_toggleAction.name + " " + m_toggleAction.action.phase);
         float value = m_changeColorAction.action.ReadValue<float>();
         UpdateColor(value);
     }

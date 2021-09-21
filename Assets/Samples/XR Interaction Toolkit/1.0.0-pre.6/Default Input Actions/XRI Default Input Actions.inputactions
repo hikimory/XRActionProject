@@ -943,6 +943,52 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Velocity",
+            "id": "f6e522a4-c13d-4de2-a301-71fd830813fd",
+            "actions": [
+                {
+                    "name": "RightVelocity",
+                    "type": "Value",
+                    "id": "edbdf645-70d0-48d1-ab6f-f940fb597644",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftVelocity",
+                    "type": "Value",
+                    "id": "93876701-ffac-4105-a3c1-479c48ac7cda",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "89d789c0-adf1-41dd-aa4b-b9891dd274bc",
+                    "path": "<XRController>{RightHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e495a65-77d3-4151-9405-939e81907064",
+                    "path": "<XRController>{LeftHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
